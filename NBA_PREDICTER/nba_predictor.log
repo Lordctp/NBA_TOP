@@ -1,0 +1,127 @@
+2025-06-27 17:02:39,685 - root - INFO - Iniciando NBA Predictor v5.0
+2025-06-27 17:02:39,685 - root - INFO - Cargando datos...
+2025-06-27 17:02:39,686 - root - ERROR - Error al cargar datos
+Traceback (most recent call last):
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 244, in load_all_data
+    self.load_partidos()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 280, in load_partidos
+    self.df = self.load_data_with_validation(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        Config.PARTIDOS_PATH,
+        ^^^^^^^^^^^^^^^^^^^^^
+        Config.COLS_PARTIDOS,
+        ^^^^^^^^^^^^^^^^^^^^^
+        dtype=str
+        ^^^^^^^^^
+    )
+    ^
+TypeError: NBADataLoader.load_data_with_validation() got an unexpected keyword argument 'dtype'. Did you mean 'dtypes'?
+2025-06-27 17:02:39,717 - root - ERROR - Error en la ejecución: NBADataLoader.load_data_with_validation() got an unexpected keyword argument 'dtype'. Did you mean 'dtypes'?
+Traceback (most recent call last):
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 773, in main
+    df, df_j, df_e, df_p = data_loader.load_all_data()
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 244, in load_all_data
+    self.load_partidos()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 280, in load_partidos
+    self.df = self.load_data_with_validation(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        Config.PARTIDOS_PATH,
+        ^^^^^^^^^^^^^^^^^^^^^
+        Config.COLS_PARTIDOS,
+        ^^^^^^^^^^^^^^^^^^^^^
+        dtype=str
+        ^^^^^^^^^
+    )
+    ^
+TypeError: NBADataLoader.load_data_with_validation() got an unexpected keyword argument 'dtype'. Did you mean 'dtypes'?
+2025-06-27 17:15:57,583 - root - INFO - Iniciando NBA Predictor v5.0
+2025-06-27 17:15:57,584 - root - INFO - Cargando datos...
+2025-06-27 17:15:57,588 - root - ERROR - Error cargando partidos.csv: Faltan columnas: {'oponente', 'TPA', 'FGM', 'TP_perc', 'jugador', 'TO', 'local', 'FG_perc', 'BL', 'FTA', 'pts', 'min', 'ST', 'reb', 'pos', 'FGA', 'TPM', 'asist', 'PF'}
+2025-06-27 17:15:57,588 - root - ERROR - Error al cargar datos
+Traceback (most recent call last):
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 218, in load_all_data
+    self.load_partidos()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 254, in load_partidos
+    self.df = self.load_data_with_validation(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        Config.PARTIDOS_PATH,
+        ^^^^^^^^^^^^^^^^^^^^^
+        Config.COLS_PARTIDOS,
+        ^^^^^^^^^^^^^^^^^^^^^
+        dtypes=str
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 209, in load_data_with_validation
+    raise ValueError(f"Faltan columnas: {missing_cols}")
+ValueError: Faltan columnas: {'oponente', 'TPA', 'FGM', 'TP_perc', 'jugador', 'TO', 'local', 'FG_perc', 'BL', 'FTA', 'pts', 'min', 'ST', 'reb', 'pos', 'FGA', 'TPM', 'asist', 'PF'}
+2025-06-27 17:15:57,590 - root - ERROR - Error en la ejecución: Faltan columnas: {'oponente', 'TPA', 'FGM', 'TP_perc', 'jugador', 'TO', 'local', 'FG_perc', 'BL', 'FTA', 'pts', 'min', 'ST', 'reb', 'pos', 'FGA', 'TPM', 'asist', 'PF'}
+Traceback (most recent call last):
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 720, in main
+    df, df_j, df_e, df_p = data_loader.load_all_data()
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 218, in load_all_data
+    self.load_partidos()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 254, in load_partidos
+    self.df = self.load_data_with_validation(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        Config.PARTIDOS_PATH,
+        ^^^^^^^^^^^^^^^^^^^^^
+        Config.COLS_PARTIDOS,
+        ^^^^^^^^^^^^^^^^^^^^^
+        dtypes=str
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 209, in load_data_with_validation
+    raise ValueError(f"Faltan columnas: {missing_cols}")
+ValueError: Faltan columnas: {'oponente', 'TPA', 'FGM', 'TP_perc', 'jugador', 'TO', 'local', 'FG_perc', 'BL', 'FTA', 'pts', 'min', 'ST', 'reb', 'pos', 'FGA', 'TPM', 'asist', 'PF'}
+2025-06-27 17:18:04,781 - root - INFO - Iniciando NBA Predictor v5.0
+2025-06-27 17:18:04,782 - root - INFO - Cargando datos...
+2025-06-27 17:18:04,786 - root - ERROR - Error cargando partidos.csv: Faltan columnas: {'TPM', 'jugador', 'FGA', 'FGM', 'TP_perc', 'PF', 'oponente', 'pts', 'asist', 'min', 'pos', 'FTA', 'FG_perc', 'TO', 'local', 'BL', 'TPA', 'reb', 'ST'}
+2025-06-27 17:18:04,787 - root - ERROR - Error al cargar datos
+Traceback (most recent call last):
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 218, in load_all_data
+    self.load_partidos()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 254, in load_partidos
+    self.df = self.load_data_with_validation(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        Config.PARTIDOS_PATH,
+        ^^^^^^^^^^^^^^^^^^^^^
+        Config.COLS_PARTIDOS,
+        ^^^^^^^^^^^^^^^^^^^^^
+        dtypes=str
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 209, in load_data_with_validation
+    raise ValueError(f"Faltan columnas: {missing_cols}")
+ValueError: Faltan columnas: {'TPM', 'jugador', 'FGA', 'FGM', 'TP_perc', 'PF', 'oponente', 'pts', 'asist', 'min', 'pos', 'FTA', 'FG_perc', 'TO', 'local', 'BL', 'TPA', 'reb', 'ST'}
+2025-06-27 17:18:04,790 - root - ERROR - Error en la ejecución: Faltan columnas: {'TPM', 'jugador', 'FGA', 'FGM', 'TP_perc', 'PF', 'oponente', 'pts', 'asist', 'min', 'pos', 'FTA', 'FG_perc', 'TO', 'local', 'BL', 'TPA', 'reb', 'ST'}
+Traceback (most recent call last):
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 720, in main
+    df, df_j, df_e, df_p = data_loader.load_all_data()
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 218, in load_all_data
+    self.load_partidos()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 254, in load_partidos
+    self.df = self.load_data_with_validation(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        Config.PARTIDOS_PATH,
+        ^^^^^^^^^^^^^^^^^^^^^
+        Config.COLS_PARTIDOS,
+        ^^^^^^^^^^^^^^^^^^^^^
+        dtypes=str
+        ^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\cartr\Downloads\NBA_PREDICTER\predictor.py", line 209, in load_data_with_validation
+    raise ValueError(f"Faltan columnas: {missing_cols}")
+ValueError: Faltan columnas: {'TPM', 'jugador', 'FGA', 'FGM', 'TP_perc', 'PF', 'oponente', 'pts', 'asist', 'min', 'pos', 'FTA', 'FG_perc', 'TO', 'local', 'BL', 'TPA', 'reb', 'ST'}

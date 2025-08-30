@@ -1,0 +1,18 @@
+fecha,jugador,rival,stat,linea_apuesta,cuota_ofrecida,cuota_justa,probabilidad,valor_esperado_EV,recomendacion,seguridad,acierto,proba_XGB
+2025-07-20 11:11,Lebron James,NYK,pts,25.50,1.85,1.36,0.74,0.360,Usar criterio EV actual,Alta,0,
+
+2025-07-26 16:35,James Harden,OKC,pts,25.50,1.60,4.81,0.21,-0.667,NO apostar,Baja,0,
+2025-07-26 16:35,James Harden,OKC,reb,2.50,2.40,1.01,0.99,1.376,Usar criterio EV actual,Media,0,
+2025-07-26 16:35,James Harden,OKC,ast,8.50,1.75,2.37,0.42,-0.263,Usar criterio EV actual,Baja,0,
+2025-07-29 22:07,James Harden,OKC,pts,20.50,2.10,2.51,0.40,-0.163,NO apostar,Baja,0,
+2025-07-29 22:07,James Harden,OKC,reb,4.50,3.20,1.41,0.71,1.277,NO apostar,Media,0,
+2025-07-29 22:07,James Harden,OKC,ast,7.50,3.50,1.80,0.55,0.941,Usar criterio EV actual,Moderada,0,
+2025-08-04 20:38,James Harden,BOS,pts,20.50,2.10,1.74,0.57,0.207,NO apostar,Media,0,
+2025-08-04 20:38,James Harden,BOS,reb,5.50,2.10,1.67,0.60,0.259,NO apostar,Media,0,
+2025-08-04 20:38,James Harden,BOS,ast,4.50,2.10,1.00,1.00,1.092,NO apostar,Alta,0,
+2025-08-11 12:14,James Harden,LAL,pts,20.50,1.80,1.77,0.56,0.015,NO apostar,Moderada,0,
+2025-08-11 12:14,James Harden,LAL,reb,3.50,1.40,1.14,0.88,0.233,NO apostar,Media,0,
+2025-08-11 12:14,James Harden,LAL,ast,3.50,1.20,1.00,1.00,0.200,NO apostar,Alta,0,
+2025-08-29 19:34,Anthony Edwards,LAC,pts,20.50,2.10,1.07,0.93,0.961,NO apostar,Alta,0,
+2025-08-29 19:34,Anthony Edwards,LAC,reb,2.50,1.20,1.00,1.00,0.200,NO apostar,Media,0,
+2025-08-29 19:34,Anthony Edwards,LAC,ast,3.50,1.10,1.01,0.99,0.085,NO apostar,Media,0,
